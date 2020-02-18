@@ -26,7 +26,7 @@ class _HomePage extends State <HomePage> with SingleTickerProviderStateMixin{
     return new Scaffold(
       appBar: AppBar(
         //new app bar
-        title: new Text(" Stock App"),
+        title: new Text("PHI App"),
         elevation: 0.7,
         //tab bar for pages
         bottom: new TabBar(
