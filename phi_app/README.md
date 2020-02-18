@@ -1,6 +1,6 @@
 # phi_app
 
-A new Flutter project.
+A new APP for the CS club at Laurier
 
 ## Getting Started
 
