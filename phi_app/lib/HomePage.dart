@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'pages/EventsPage.dart';
+import 'pages/ProfilePage.dart';
 class HomePage extends StatefulWidget{
   //create a state for our homepage, since its reactive
   @override
@@ -39,6 +41,13 @@ class _HomePage extends State <HomePage> with SingleTickerProviderStateMixin{
             new Tab(text: "Profile"),
           ],
         ),
+      ),
+      body: new TabBarView(
+        controller: _tabController,
+        children: <Widget>[
+          new EventsPage(),
+          new ProfilePage()
+        ],
       ),
     );
   }
