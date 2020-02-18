@@ -1,2 +1,2 @@
 # PHI-APP
-An app for the Computer Science Club at Wilfrid Laurier University
+An App designed for the Computer Science Club at Wilfrid Laurier University.
